@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    transition: background-color 0.3s ease;
+}
+
+.navbar:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    /* On hover, slightly increase opacity */
+
+}
+
+.sale-tag {
+    font-size: 2rem;
+    /* Increase the size */
+    padding: 0.75rem 1.5rem;
+    /* Adjust padding for bigger look */
+    background-color: #ff3d00;
+    /* Bright red for visibility */
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    border-bottom-right-radius: 0.75rem;
+    /* Slight rounded edge */
+    transform: rotate(-10deg);
+    /* Optional: Rotate slightly for a dynamic look */
+}
+
+.container {
+    height: auto;
+    /* Allow container to adjust to the image size */
+    width: 100%;
+    /* Ensure the container width is responsive */
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    /* Or adjust based on your desired aspect ratio */
+}
+
+
+/* Custom styles for logo and menu button */
+.text-xl {
+    font-size: 1.25rem; /* Adjust this value to change logo size */
+}
+
+#mobile-menu-button {
+    padding: 0; /* Remove any default padding if needed */
+}
+
+/* Adjust the width of the mobile nav links if necessary */
+#mobile-nav-links {
+    max-width: 90%; /* Prevent it from stretching too wide */
+}
+
+section {
+    padding-top: 60px; /* Adjust this value based on the height of your navbar */
+    margin-top: -60px; /* Negative margin to compensate for padding */
+}

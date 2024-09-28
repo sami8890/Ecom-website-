@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Shop the latest digital accessories like smartwatches, headphones, and more." />
+    <title>Buy Smartwatches & Digital Accessories | Your Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body style="background-color: #bebeb4">
+    <nav class="sticky top-0 bg-gray-300 shadow z-50 flex items-center justify-between p-4 backdrop-filter backdrop-blur-lg bg-opacity-70">
+        <!-- Logo (For Small Screen) -->
+        <div class="text-xl font-bold font-poppins" style="font-size: 1.5rem;">
+            Sami Store
+        </div>
+
+        <!-- Toggle Menu Button (Moved to the right) -->
+   <!-- Update your toggle button like this -->
+<div class="md:hidden flex items-center ml-auto" id="mobile-menu-button" aria-expanded="false" aria-controls="mobile-nav-links">
+    <button class="flex flex-col justify-center items-center w-8 h-auto" aria-label="Toggle menu">
+        <span class="block w-full h-1 bg-blue-600 mb-1"></span>
+        <span class="block w-full h-1 bg-blue-600 mb-1"></span>
+        <span class="block w-full h-1 bg-blue-600"></span>
+    </button>
+</div>
+        <!-- Navigation Links for Desktop -->
+        <ul class=" md:flex space-x-8text-black" id="nav-links">
+            <li>
+                <a href="#" class="flex items-center hover:text-blue-600"><i class="fas fa-home mr-2"></i>Home</a>
+            </li>
+            <li>
+                <a href="#" class="flex items-center hover:text-blue-600"><i class="fas fa-th-large mr-2"></i>Categories</a>
+            </li>
+            <li>
+                <a href="#" class="flex items-center hover:text-blue-600"><i class="fas fa-star mr-2"></i>New Arrivals</a>
+            </li>
+            <li>
+                <a href="#" class="flex items-center hover:text-blue-600"><i class="fas fa-star-half-alt mr-2"></i>Best Sellers</a>
+            </li>
+            <li>
+                <a href="#" class="flex items-center hover:text-blue-600"><i class="fas fa-tags mr-2"></i>Sales</a>
+            </li>
+            <li>
+                <a href="#" class="flex items-center hover:text-blue-600"><i class="fas fa-envelope mr-2"></i>Contact Us</a>
+            </li>
+        </ul>
+
+        <!-- Navigation Links for Mobile -->
+        <ul class="absolute top-16 left-0 w-full bg-blue-500 shadow-md md:hidden hidden" id="mobile-nav-links">
+            <li class="border-b">
+                <a href="#" class="block px-4 py-2  text-black-700 hover:bg-gray-900"><i class="fas fa-home mr-2"></i>Home</a>
+            </li>
+            <li class="border-b">
+                <a href="#" class="block px-4 py-2  text-black-700 hover:bg-gray-100"><i class="fas fa-th-large mr-2"></i>Categories</a>
+            </li>
+            <li class="border-b">
+                <a href="#" class="block px-4 py-2  text-black-700 hover:bg-gray-100"><i class="fas fa-star mr-2"></i>New Arrivals</a>
+            </li>
+            <li>
+                <a href="#" class="block px-4 py-2 text-black hover:bg-gray-100"><i class="fas fa-tags mr-2"></i>Sales</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+
+</html>
